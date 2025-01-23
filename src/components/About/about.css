@@ -1,0 +1,21 @@
+.introduction-container {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #60D9F9;
+}
+
+@media (max-width:550px) {
+    .introduction-container {
+        font-size: 1rem;
+    }
+}

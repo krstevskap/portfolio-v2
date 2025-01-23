@@ -1,0 +1,109 @@
+.hobbies-container ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.hobbies-container ul li {
+    list-style: none;
+}
+
+.hobbies-container li a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.change-color:hover {
+    cursor: pointer;
+    color: #60D9F9;
+}
+
+.all-icons {
+    position: relative;
+}
+
+.comic-icon {
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    animation: pop 3s forwards;
+}
+
+.comic-icon:nth-child(1) {
+    right: 0;
+    top: -20px;
+}
+
+.comic-icon:nth-child(2) {
+    right: 100px;
+    top: 50px;
+}
+
+.comic-icon:nth-child(3) {
+    right: -5px;
+    top: 125px;
+}
+
+@media (max-width:1250px) {
+    .comic-icon {
+        width: 65px;
+        height: 50px;
+    }
+
+    .comic-icon:nth-child(1) {
+        right: 0;
+        top: -20px;
+    }
+
+    .comic-icon:nth-child(2) {
+        right: 40px;
+        top: 50px;
+    }
+
+    .comic-icon:nth-child(3) {
+        right: -5px;
+        top: 125px;
+    }
+}
+
+
+@media (max-width:615px) {
+    .comic-icon {
+        width: 55px;
+        height: 40px;
+    }
+
+    .comic-icon:nth-child(2) {
+        right: 30px;
+        top: 50px;
+    }
+
+    .comic-icon:nth-child(3) {
+        right: -10px;
+        top: 110px;
+    }
+}
+
+@media (max-width:400px) {
+    .hobbies-container ul {
+        font-size: 1rem;
+    }
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}

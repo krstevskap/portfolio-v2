@@ -1,0 +1,26 @@
+.projects-container,
+.choose-project {
+    display: flex;
+    gap: 1em;
+}
+
+.projects-container {
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+}
+
+.choose-project {
+    justify-content: center;
+}
+
+.choose-project div {
+    width: 15px;
+    height: 15px;
+    background-color: #60D9F9;
+    border-radius: 50%;
+}
+
+.choose-project div:hover {
+    cursor: pointer;
+}

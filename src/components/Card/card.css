@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.card-container h4 {
+    font-size: 1.1rem;
+}
+
+.card-description, .technologies {
+    font-size: 1rem;
+}
+
+.card-icons a {
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 1em;
+}
+
+.card-container a:hover {
+    cursor: pointer;
+    color: #60D9F9;
+}

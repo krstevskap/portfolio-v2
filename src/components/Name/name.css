@@ -1,0 +1,21 @@
+.name {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #60D9F9;
+    margin: 0;
+    height: 50px;
+    padding: 0.5em;
+}
+
+@media (max-width:550px) {
+    .name {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:320px) {
+    .name {
+        font-size: 1.1rem;
+    }
+}

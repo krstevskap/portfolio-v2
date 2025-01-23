@@ -1,0 +1,29 @@
+.technologies-container,
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.technologies-container {
+    flex: 1;
+}
+
+.icons-top,
+.icons-bottom,
+.icons-middle {
+    display: flex;
+    gap: 1em;
+}
+
+.icons {
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+    padding: 0.3em;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}

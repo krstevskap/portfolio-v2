@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    background-image: url("../src/assets/blue-noise-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    color: #fefefe;
+    font-weight: 100;
+    background-color: #192231;
+    /* border-radius: 20px; */
+    padding: 1em;
+    font-size: 1.2rem;
+}
+
+h3,
+h4 {
+    color: #60D9F9;
+    font-weight: 400;
+}
+
+p,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}

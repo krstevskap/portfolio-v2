@@ -1,0 +1,30 @@
+.contact-container {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: 0;
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.contact-container a:hover {
+    cursor: pointer;
+    color: #60D9F9;
+}
+
+@media (max-width:950px) {
+    .contact-container {
+        padding: 0.5em 0;
+    }
+}
+
+@media (max-width:300px) {
+    .contact-container a {
+        font-size: 1.5rem;
+    }
+}
