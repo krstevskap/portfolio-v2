@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/krstevskap/portfolio-v2/static/css/main.95326fd9.css",
+    "main.js": "/krstevskap/portfolio-v2/static/js/main.85e84e1c.js",
+    "static/js/488.5e8057b8.chunk.js": "/krstevskap/portfolio-v2/static/js/488.5e8057b8.chunk.js",
+    "static/media/japan.jpg": "/krstevskap/portfolio-v2/static/media/japan.660a910a8f8e493d5121.jpg",
+    "static/media/blue-noise-background.jpg": "/krstevskap/portfolio-v2/static/media/blue-noise-background.9559117592510f27073f.jpg",
+    "static/media/comic-logo6.png": "/krstevskap/portfolio-v2/static/media/comic-logo6.23d7d0be6763b87d6d3d.png",
+    "static/media/comic-logo4.png": "/krstevskap/portfolio-v2/static/media/comic-logo4.2ece082f5d72a87eb39f.png",
+    "static/media/comic-logo5.png": "/krstevskap/portfolio-v2/static/media/comic-logo5.7e61b06cda3bf9179736.png",
+    "index.html": "/krstevskap/portfolio-v2/index.html",
+    "main.95326fd9.css.map": "/krstevskap/portfolio-v2/static/css/main.95326fd9.css.map",
+    "main.85e84e1c.js.map": "/krstevskap/portfolio-v2/static/js/main.85e84e1c.js.map",
+    "488.5e8057b8.chunk.js.map": "/krstevskap/portfolio-v2/static/js/488.5e8057b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95326fd9.css",
+    "static/js/main.85e84e1c.js"
+  ]
+}
