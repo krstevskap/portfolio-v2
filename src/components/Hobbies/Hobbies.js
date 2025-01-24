@@ -33,7 +33,7 @@ const Hobbies = () => {
           </a>
         </li>
         <li>Painting</li>
-        <li className="change-color">Photography</li>
+        <li>Photography</li>
         <li>Watching movies</li>
         <li>
           Reading books and{" "}

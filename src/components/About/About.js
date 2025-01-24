@@ -4,6 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <div className="introduction-container box">
+      <h3>About me</h3>
       <p>
         I'm a <span className="mark-words">software engineering</span> student
         at

@@ -9,7 +9,7 @@ const Technologies = () => {
         <div className="icons-top">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-            alt="javascripit-icon"
+            alt="html-icon"
             style={{ backgroundColor: "#E44D266f" }}
           />
           <img
@@ -17,20 +17,18 @@ const Technologies = () => {
             alt="css-icon"
             style={{ backgroundColor: "#1572B66f" }}
           />
-        </div>
-        <div className="icons-middle">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
             alt="javascripit-icon"
             style={{ backgroundColor: "#f0da4f6f" }}
           />
+        </div>
+        <div className="icons-bottom">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             alt="react-icon"
             style={{ backgroundColor: "#97eaff6f" }}
           />
-        </div>
-        <div className="icons-bottom">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
             alt="java-icon"

@@ -1,7 +1,9 @@
 .introduction-container {
     display: flex;
     text-align: justify;
-    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    flex: 1;
 }
 
 .link {
@@ -11,11 +13,5 @@
 
 .link:hover {
     cursor: pointer;
-    color: #60D9F9;
-}
-
-@media (max-width:550px) {
-    .introduction-container {
-        font-size: 1rem;
-    }
+    color: #48c3f4;
 }

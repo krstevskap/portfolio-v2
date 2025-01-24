@@ -5,6 +5,8 @@ import "./homepage.css";
 import Hobbies from "../../components/Hobbies/Hobbies";
 import Contact from "../../components/Contact/Contact";
 import Projects from "../../components/Projects/Projects";
+import Globe from "../../components/Globe/Globe";
+import StrippedPattern from "../../components/StrippedPattern/StrippedPattern";
 import Name from "../../components/Name/Name";
 
 const Homepage = () => {
@@ -12,21 +14,25 @@ const Homepage = () => {
     <div className="homepage">
       <Name />
       <div className="wrapper">
-        <section className="left-container">
+        <section className="left-section">
           <About />
-          <div className="bottom-container">
-            <Technologies />
-            <div className="bottom-left-container">
-              <Hobbies />
-            </div>
-          </div>
+          <Hobbies />
         </section>
 
-        <section className="right-container">
-          <Projects />
+        <section className="middle-section">
+          <Technologies />
+          <div className="globe-container">
+            <Globe />
+          </div>
           <Contact />
         </section>
+
+        <section className="right-section">
+          <Projects />
+          <div className="image-container"></div>
+        </section>
       </div>
+      <StrippedPattern />
     </div>
   );
 };

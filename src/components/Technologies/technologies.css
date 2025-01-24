@@ -3,15 +3,11 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-}
-
-.technologies-container {
-    flex: 1;
+    flex-wrap: wrap;
 }
 
 .icons-top,
-.icons-bottom,
-.icons-middle {
+.icons-bottom {
     display: flex;
     gap: 1em;
 }
@@ -26,4 +22,19 @@
     border-radius: 10px;
     width: 40px;
     height: 40px;
+}
+
+@media (max-width:950px) {
+    .technologies-container {
+        padding: 1em 0;
+    }
+}
+
+@media (max-width:330px) {
+    .icons img {
+        padding: 0.3em;
+        border-radius: 10px;
+        width: 20px;
+        height: 20px;
+    }
 }

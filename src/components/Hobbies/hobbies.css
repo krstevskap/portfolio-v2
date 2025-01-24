@@ -1,3 +1,7 @@
+.hobbies-container {
+    flex: 1;
+}
+
 .hobbies-container ul {
     padding: 0;
     display: flex;
@@ -16,7 +20,7 @@
 
 .change-color:hover {
     cursor: pointer;
-    color: #60D9F9;
+    color: #48c3f4;
 }
 
 .all-icons {

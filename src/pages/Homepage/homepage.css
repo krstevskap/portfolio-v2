@@ -1,52 +1,53 @@
 .homepage {
     background: none;
     min-height: 100vh;
-    width: 70%;
+    width: 75%;
     justify-content: center;
     flex-direction: column;
 }
 
 .homepage,
 .wrapper,
-.bottom-container,
-.bottom-left-container,
-.left-container,
-.right-container {
+.left-section,
+.middle-section,
+.right-section {
     display: flex;
     gap: 1em;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+    flex-direction: column;
+    flex: 1;
     flex-wrap: wrap;
 }
 
-.left-container,
-.right-container,
-.bottom-left-container {
-    flex-direction: column;
+.globe-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.left-container {
-    flex: 2;
+.middle-section {
+    justify-content: space-between;
 }
 
-.right-container {
-    flex: 1;
+.image-container {
+    background-image: url("../../assets/japan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    opacity: 0.9;
 }
 
-.bottom-left-container {
-    flex: 2;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1060px) {
     .homepage {
         padding: 1em 0;
     }
 
     .wrapper {
-        flex-direction: column;
-    }
-}
-
-@media (max-width:550px) {
-    .bottom-container {
         flex-direction: column;
     }
 }
