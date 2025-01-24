@@ -8,6 +8,7 @@ import Projects from "../../components/Projects/Projects";
 import Globe from "../../components/Globe/Globe";
 import StrippedPattern from "../../components/StrippedPattern/StrippedPattern";
 import Name from "../../components/Name/Name";
+import japanImage from "../../assets/japan.jpg";
 
 const Homepage = () => {
   return (
@@ -29,7 +30,10 @@ const Homepage = () => {
 
         <section className="right-section">
           <Projects />
-          <div className="image-container"></div>
+          <div
+            className="image-container"
+            style={{ backgroundImage: `url(${japanImage})` }}
+          ></div>
         </section>
       </div>
       <StrippedPattern />

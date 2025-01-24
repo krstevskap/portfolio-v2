@@ -10,7 +10,7 @@ body {
 .App {
     display: flex;
     justify-content: center;
-    background-image: url("../src/assets/blue-noise-background.jpg");
+    background-image: url("../src/assets/blue-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

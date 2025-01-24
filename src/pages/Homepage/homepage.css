@@ -34,7 +34,6 @@
 }
 
 .image-container {
-    background-image: url("../../assets/japan.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
