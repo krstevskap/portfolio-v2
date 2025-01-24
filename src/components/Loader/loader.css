@@ -1,0 +1,13 @@
+.loader-container{
+    background-color: #060D14;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    color: #48c3f4;
+    font-family: 'Bruno Ace', serif;
+    font-size: 1.2rem;
+}
