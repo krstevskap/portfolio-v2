@@ -3,14 +3,21 @@ import "./hobbies.css";
 import icon1 from "../../assets/comic-logo4.png";
 import icon2 from "../../assets/comic-logo5.png";
 import icon3 from "../../assets/comic-logo6.png";
+import { MdSubdirectoryArrowRight } from "react-icons/md";
 
 const Hobbies = () => {
   const [showIcons, setShowIcons] = useState(false);
+  const [showBook, setShowBook] = useState(false);
 
   const handleComicsClick = () => {
     setShowIcons(true);
     setTimeout(() => setShowIcons(false), 2000);
   };
+
+  const handleBooksClick = () => {
+    setShowBook((prev) => !prev);
+  };
+
   return (
     <div className="hobbies-container box">
       <h3>Hobbies</h3>
@@ -36,11 +43,29 @@ const Hobbies = () => {
         <li>Photography</li>
         <li>Watching movies</li>
         <li>
-          Reading books and{" "}
+          Reading{" "}
+          <span className="change-color" onClick={handleBooksClick}>
+            books
+          </span>{" "}
+          and{" "}
           <span className="change-color" onClick={handleComicsClick}>
             comics
           </span>
         </li>
+        {showBook && (
+          <li className="book-easter-egg">
+            <MdSubdirectoryArrowRight style={{ color: "#48c3f4" }} />
+            Currently reading:{" "}
+            <a
+              href="https://www.goodreads.com/book/show/59947696-wrong-place-wrong-time"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="change-color"
+            >
+              Wrong Place Wrong Time
+            </a>
+          </li>
+        )}
       </ul>
     </div>
   );

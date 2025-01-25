@@ -31,7 +31,6 @@ const Globe = () => {
   return (
     <div
       style={{
-        overflow: "hidden",
         maxWidth: "350px",
       }}
     >

@@ -49,6 +49,15 @@
     top: 125px;
 }
 
+.book-easter-egg {
+    font-size: 0.9rem;
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0.5em;
+}
+
 @media (max-width:1250px) {
     .comic-icon {
         width: 65px;
