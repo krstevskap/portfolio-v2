@@ -41,7 +41,19 @@ const Hobbies = () => {
         </li>
         <li>Painting</li>
         <li>Photography</li>
-        <li>Watching movies</li>
+        <li>
+          Watching{" "}
+          <span>
+            <a
+              href="https://letterboxd.com/krstevska/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="change-color"
+            >
+              movies
+            </a>
+          </span>
+        </li>
         <li>
           Reading{" "}
           <span className="change-color" onClick={handleBooksClick}>
